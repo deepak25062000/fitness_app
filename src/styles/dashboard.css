@@ -1,0 +1,12 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.dashboard{
+    border: 1px solid black;
+    width: 400px;
+    padding: 10px;
+    margin: 10px;
+}
