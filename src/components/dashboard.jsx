@@ -1,6 +1,6 @@
 
 import { connect } from "react-redux";
-import { Link } from "react-router-dom";
+import { Link, Navigate } from "react-router-dom";
 
 const Dashboard = ( {userdetails , remove_user} ) => {
     return ( 
@@ -24,7 +24,7 @@ const Dashboard = ( {userdetails , remove_user} ) => {
  
 let mapStateToProps = (state)=>{
     return { 
-        userdetails : state
+        userdetails : state.user
     };
 }
 
